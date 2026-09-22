@@ -457,8 +457,6 @@
 }
 
 .btn-action{border:none;border-radius:8px;padding:10px 16px;font-size:0.85rem;font-weight:700;cursor:pointer;flex-shrink:0;transition:filter 0.15s;}
-.btn-email{background:#0072C6;color:white;}
-.btn-email:hover{filter:brightness(1.15);}
 .btn-pdf{background:#E65100;color:white;}
 .btn-pdf:hover{filter:brightness(1.15);}
 </style>
@@ -516,7 +514,6 @@
       <h2 style="color:#CC0000;">&#128203; Flush Valve Diagnostic Checklist</h2>
       <div style="display:flex;gap:8px;flex-shrink:0;">
         <button class="cl-btn-clear" onclick="clearChecklist()">&#10006; Clear</button>
-        <button class="btn-action btn-email" onclick="emailChecklist()">&#9993; Email</button>
         <button class="btn-action btn-pdf" onclick="savePDF()">&#128196; Save PDF</button>
         <button class="btn-print" onclick="printChecklist()">&#128424; Print</button>
       </div>
@@ -682,7 +679,6 @@
 
       <div style="text-align:center;margin:24px 0 0;">
         <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
-          <button class="btn-action btn-email" onclick="emailChecklist()">&#9993; Email Checklist</button>
           <button class="btn-action btn-pdf" onclick="savePDF()">&#128196; Save PDF</button>
           <button class="btn-print" onclick="printChecklist()">&#128424; Print Checklist</button>
         </div>
